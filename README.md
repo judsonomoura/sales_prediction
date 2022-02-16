@@ -47,7 +47,7 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 **Passo 03. Filtragem dos Dados:** Para a filtragem dos dados foi considerado que lojas fechadas não contribuem para a explicabilidade do fenômeno, uma vez que não apresentam dados de vendas. Além disso, removemos colunas que não estariam disponíveis no momento da previsão.
 
-**Passo 04. Análise Exploratória dos Dados:** Essa é sem dúvidas a etapa mais importante do projeto. Aqui foi feitas algumas hipóteses levando em conta as variáveis preditoras juntamente com a variável a ser prevista. Esta etapa é rica pela geração de insights, como é possível observar no tópico 4 a seguir.
+**Passo 04. Análise Exploratória dos Dados:** Essa é sem dúvidas a etapa mais importante do projeto. Aqui foram feitas algumas hipóteses levando em conta as variáveis preditoras juntamente com a variável a ser prevista. Nesta etapa foi gerado alguns insights, como é possível observar no tópico 4 a seguir.
 
 **Step 05. Data Preparation:**
 
