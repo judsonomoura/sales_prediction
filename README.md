@@ -35,19 +35,19 @@ Foram fornecidas as seguintes informações de vendas para cada loja:
 - **Promo** - indica se uma loja está fazendo uma promoção naquele dia  
 - **Promo2** - Promo2 é uma promoção contínua e consecutiva para algumas lojas: 0 = a loja não está participando, 1 = a loja está participando  
 - **Promo2Since[Year/Week]** - descreve o ano e a semana em que a loja começou a participar da Promo2  
-- **PromoInterval** - descreve os intervalos consecutivos em que a Promo2 é iniciada, nomeando os meses em que a promoção é reiniciada. Por exemplo. "Fev, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja  
+- **PromoInterval** - descreve os intervalos consecutivos em que a Promo2 é iniciada, nomeando os meses em que a promoção é reiniciada. Por exemplo: "Fev, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja  
 
 # 3. Estratégias para a solução
 
 Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo possível, foi utilidado o método cíclico CRISP-DS, aplicando os passos a seguir:
 
-**Passo 01. Descrição dos dados:** Nesta etapa foi utilizado métodos estatísticos para descrever os dados, como: média, mediana, desvio padrão, máximo, mínimo, intervalo, knewness e kurtosis. Além disso foi resolvido o problema de dados faltantes levando em conta as questões do negócio.
+**Passo 01. Descrição dos dados:** Nesta etapa foi utilizado métodos estatísticos para descrever os dados como média, mediana, desvio padrão, máximo, mínimo, intervalo, knewness e kurtosis. Além disso foi resolvido o problema de dados faltantes levando em conta algumas questões de negócio.
 
 **Passo 02. Engenharia de Atributos:** Neste passo, o objetivo foi criar novos atributos a partir dos atributos já existentes para descrever melhor o fenômeno a ser previsto. 
 
-**Step 03. Data Filtering:**
+**Passo 03. Filtragem dos Dados:** Para a filtragem dos dados foi considerado que lojas fechadas não contribuem para a explicabilidade do fenômeno, uma vez que não apresentam dados de vendas. Além disso, removemos colunas que não estariam disponíveis no momento da previsão.
 
-**Step 04. Exploratory Data Analysis:**
+**Passo 04. Análise Exploratória dos Dados:** Essa é sem dúvidas a etapa mais importante do projeto. Aqui foi feitas algumas hipóteses levando em conta as variáveis preditoras juntamente com a variável a ser prevista. Esta etapa é rica pela geração de insights, como é possível observar no tópico 4 a seguir.
 
 **Step 05. Data Preparation:**
 
@@ -63,6 +63,17 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 # 4. Top 3 insights
 
+**HIPÓTESE** Lojas com competidores mais próximos deveriam vender menos¶
+**FALSA** Lojas com competidores mais próximos vendem MAIS
+![](img/H2.png)
+
+**HIPÓTESE** - Lojas deveriam vender mais ao longo dos anos
+**FALSO** Lojas vendem menos ao longo dos anos
+![](img/H8.png)
+
+**H10** Lojas deveriam vender mais depois do dia 10 de cada mês
+**VERDADEIRO** Lojas vendem mais depois do décimo dia do mês
+![](img/H10.png)
 
 # 5. Modelos de machine learning aplicados
 
