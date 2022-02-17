@@ -1,5 +1,6 @@
 # Vendas Rossmann
 Projeto de Previsão de Vendas das Farmácias Rossmann
+![](img/logo-rossmann.svg)
 
 Todo o cenário a seguir é completamente fictício. A empresa, o contexto, o CEO e as hipóteses de negócio foram criadas apenas para simular um ambiente real em que um ciêntista de dados está inserido.
 
@@ -49,17 +50,17 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 **Passo 04. Análise Exploratória dos Dados:** Essa é sem dúvidas a etapa mais importante do projeto. Aqui foram feitas algumas hipóteses levando em conta as variáveis preditoras juntamente com a variável a ser prevista. Nesta etapa foi gerado alguns insights, como é possível observar no tópico 4 a seguir.
 
-**Step 05. Data Preparation:**
+**Passo 05. Preparação dos Dados:**
 
-**Step 06. Feature Selection:**
+**Passo 06. Seleção de Atributos:**
 
-**Step 07. Machine Learning Modelling:**
+**Passo 07. Modelagem de Aprendizado de Máquina:**
 
-**Step 08. Hyperparameter Fine Tunning:**
+**Step 08. Ajuste Fino dos Hiperparâmetros:**
 
-**Step 09. Convert Model Performance to Business Values:**
+**Step 09. Conversão da Performance dos Modelos em Valores de Negócio:**
 
-**Step 10. Deploy Modelo to Production:**
+**Step 10. Implantação do Modelo em Produção:**
 
 # 4. Top 3 insights
 
