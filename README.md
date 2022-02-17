@@ -1,5 +1,5 @@
 # Vendas Rossmann
-Projeto de Previsão de Vendas das Farmácias Rossmann
+**Projeto de Previsão de Vendas das Farmácias Rossmann**
 ![](img/logo-rossmann.svg)
 
 Todo o cenário a seguir é completamente fictício. A empresa, o contexto, o CEO e as hipóteses de negócio foram criadas apenas para simular um ambiente real em que um ciêntista de dados está inserido.
