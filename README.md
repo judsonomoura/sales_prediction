@@ -50,9 +50,9 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 **Passo 04. Análise Exploratória dos Dados:** Essa é sem dúvidas a etapa mais importante do projeto. Aqui foram feitas algumas hipóteses levando em conta as variáveis preditoras juntamente com a variável a ser prevista. Nesta etapa foi gerado alguns insights, como é possível observar no tópico 4 a seguir.
 
-**Passo 05. Preparação dos Dados:**
+**Passo 05. Preparação dos Dados:** Para adequar os dados aos modelos de apredizagem de máquina, foi feita algumas mudanças nas variáveis utilizando métodos como: Robust Scaler, One Hot Encoding, Transformação logarítmica entre outros. 
 
-**Passo 06. Seleção de Atributos:**
+**Passo 06. Seleção de Atributos:** Nesta estapa selecionamos os melhores atributos para modelagem de máquina. 
 
 **Passo 07. Modelagem de Aprendizado de Máquina:**
 
