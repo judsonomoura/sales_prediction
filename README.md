@@ -63,17 +63,20 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 # 4. Top 3 insights
 
-**HIPÓTESE** Lojas com competidores mais próximos deveriam vender menos¶
+**HIPÓTESE** Lojas com competidores mais próximos deveriam vender menos
+
 **FALSA** Lojas com competidores mais próximos vendem MAIS
 ![](https://github.com/judsonomoura/sales_prediction/blob/main/img/h2.png)
 
 **HIPÓTESE** - Lojas deveriam vender mais ao longo dos anos
+
 **FALSO** Lojas vendem menos ao longo dos anos
-![](main/img/H8.png)
+![](https://github.com/judsonomoura/sales_prediction/blob/main/img/H8.png)
 
 **H10** Lojas deveriam vender mais depois do dia 10 de cada mês
+
 **VERDADEIRO** Lojas vendem mais depois do décimo dia do mês
-![](img/H10.png)
+![](https://github.com/judsonomoura/sales_prediction/blob/main/img/H10.png)
 
 # 5. Modelos de machine learning aplicados
 
