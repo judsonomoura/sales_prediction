@@ -69,7 +69,7 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 **HIPÓTESE** - Lojas deveriam vender mais ao longo dos anos
 **FALSO** Lojas vendem menos ao longo dos anos
-![](img/H8.png)
+![](main/img/H8.png)
 
 **H10** Lojas deveriam vender mais depois do dia 10 de cada mês
 **VERDADEIRO** Lojas vendem mais depois do décimo dia do mês
