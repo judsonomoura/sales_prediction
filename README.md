@@ -65,7 +65,7 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 **HIPÓTESE** Lojas com competidores mais próximos deveriam vender menos¶
 **FALSA** Lojas com competidores mais próximos vendem MAIS
-![](img/H2.png)
+![](https://github.com/judsonomoura/sales_prediction/blob/main/img/h2.png)
 
 **HIPÓTESE** - Lojas deveriam vender mais ao longo dos anos
 **FALSO** Lojas vendem menos ao longo dos anos
