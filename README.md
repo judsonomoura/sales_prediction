@@ -52,15 +52,15 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 **Passo 05. Preparação dos Dados:** Para adequar os dados aos modelos de apredizagem de máquina, algumas mudanças foram aplicadas nas variáveis, utilizando métodos como: Robust Scaler, One Hot Encoding, Transformação logarítmica, Min-Max Scaler, entre outros. 
 
-**Passo 06. Seleção de Atributos:** O propósito desta estapa é selecionar os melhores atributos para aplicar nos modelos de aprendizado de máquina. 
+**Passo 06. Seleção de Atributos:** O propósito desta etapa é selecionar os melhores atributos para aplicar nos modelos de aprendizado de máquina. 
 
-**Passo 07. Modelagem de Aprendizado de Máquina:** 
+**Passo 07. Modelagem de Aprendizado de Máquina:** Após preparar os dados e selecionar os melhores atributos, é hora de treinar alguns modelos de machine learning e medir suas performances utilizando o cross validation. 
 
-**Step 08. Ajuste Fino dos Hiperparâmetros:**
+**Step 08. Ajuste Fino dos Hiperparâmetros:** Após comparar as performances dos modelos, escolhemos o melhor modelo para fazer um ajuste fino dos hiperparâmetros, isto é, os hiperparâmetros em que a performance seja a melhor possível.
 
-**Step 09. Conversão da Performance dos Modelos em Valores de Negócio:**
+**Step 09. Conversão da Performance dos Modelos em Valores de Negócio:** Nesta etapa a performance do modelo é convertida em performance de negócio. Aqui pode-se dizer ao time de negócios qual o retorno financeiro desse algoritmo caso seja usado.
 
-**Step 10. Implantação do Modelo em Produção:**
+**Step 10. Implantação do Modelo em Produção:** O último passo é colocar o modelo treinado em produção onde possa ser acessada por qualquer pessoa com acesso a internet. 
 
 # 4. Top 3 insights
 
@@ -79,13 +79,30 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 **VERDADEIRO** Lojas vendem mais depois do décimo dia do mês
 ![](img/h10.png)
 
-# 5. Modelos de machine learning aplicados
+# 5. Modelos de Machine Learning Aplicados
 
 - Average Model (baseline para comparação)
 - Linear Regression Model
 - Linear Regression Regularized Model (Lasso)
 - Random Forest Regressor
 - XGBoost Regressor
+
+# 6. Performance dos Modelos de Machine Learning 
+|Nome do Modelo          |MAE     |MAPE    |RMSE    |
+|------------------------|--------|--------|--------|
+|Average Model           |1354.80 |0.2064  |1835.13 |
+|Linear Regression Model |1867.08 |0.292694|2671.05 | 
+|Lasso                   |
+
+
+
+# 7. Business Results
+
+# 8. Conclusions
+
+# 9. Lessons Learned
+
+# 10. Next Steps to Improve
 
 
 
