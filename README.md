@@ -90,6 +90,7 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 # 6. Performance dos Modelos de Machine Learning 
 |Nome do Modelo          |MAE (CV)|MAPE (CV)|RMSE (CV)|
 |------------------------|--------|--------|--------|
+|Average Model	          |1354.800353 |0.2064|1835.135542|
 |Random Forest Regressor |837.7 +/- 219.24|	0.12 +/- 0.02|	1256.59 +/- 320.28|
 |XGBoost Regressor	  |1048.45 +/- 172.04|	0.14 +/- 0.02|	1513.27 +/- 234.33|
 |Linear Regression	  |2081.73 +/- 295.63|	0.3 +/- 0.02|	2952.52 +/- 468.37|
