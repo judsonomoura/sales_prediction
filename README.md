@@ -14,8 +14,8 @@ Com milhares de gerentes prevendo as vendas com base em suas circunstâncias ind
 
 # 2. Premissas do negócio
 
-- Lojas fechadas não nos dão informações sobre vendas, sendo assim, foram removidas de nossa análise; 
-- Foram consideradas apenas lojas com vendas maiores que zero;  
+- Lojas fechadas não nos dão informações sobre vendas, sendo assim, foram removidas de nossa análise. 
+- Foram consideradas apenas lojas com vendas maiores que zero.  
 - Para lojas que não possuiam informação sobre o concorrente mais próximo, concluímos que não há competição ou que não há concorrentes próximos. Neste caso, foi considerado um valor bem acima da distância observada no conjunto de dados. 
 
 ## 2.1 Descrição dos atributos
@@ -69,7 +69,7 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 **FALSA** Lojas com competidores mais próximos vendem MAIS
 ![](img/h2.png)
 
-**HIPÓTESE 2:** - Lojas deveriam vender mais ao longo dos anos
+**HIPÓTESE 2:** Lojas deveriam vender mais ao longo dos anos
 
 **FALSO** Lojas vendem menos ao longo dos anos
 ![](img/h8.png)
@@ -88,16 +88,20 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 - XGBoost Regressor
 
 # 6. Performance dos Modelos de Machine Learning 
-|Nome do Modelo          |MAE     |MAPE    |RMSE    |
+|Nome do Modelo          |MAE (CV)|MAPE (CV)|RMSE (CV)|
 |------------------------|--------|--------|--------|
-|Average Model           |1354.80 |0.2064  |1835.13 |
-|Linear Regression Model |1867.08 |0.292694|2671.05 | 
-|Lasso                   |
+|Random Forest Regressor |837.7 +/- 219.24|	0.12 +/- 0.02|	1256.59 +/- 320.28|
+|XGBoost Regressor	  |1048.45 +/- 172.04|	0.14 +/- 0.02|	1513.27 +/- 234.33|
+|Linear Regression	  |2081.73 +/- 295.63|	0.3 +/- 0.02|	2952.52 +/- 468.37|
+|Lasso	                  |2116.38 +/- 341.5|	0.29 +/- 0.01|	3057.75 +/- 504.26|
 
+Após o ajuste dos hiperparâmetros 
 
-
+|Nome do Modelo  |MAE |MAPE|RMSE|
+|----------------|--------|--------|--------|
+XGBoost Regressor| 665.330873 | 0.097987 | 958.715745|
+ 
 # 7. Business Results
-
 # 8. Conclusions
 
 # 9. Lessons Learned
