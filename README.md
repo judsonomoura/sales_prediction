@@ -4,7 +4,7 @@
 
 Todo o cenário a seguir é completamente fictício. A empresa, o contexto, o CEO e as hipóteses de negócio foram criadas apenas para simular um ambiente real em que um ciêntista de dados está inserido.
 
-Os dados referente a este projeto fazem parte de um desafio lançado no **kaglle**. Para acessá-los [clique aqui.](https://www.kaggle.com/c/rossmann-store-sales).  
+Os dados referente a este projeto fazem parte de um desafio lançado no **kaggle**. Para acessá-los [clique aqui.](https://www.kaggle.com/c/rossmann-store-sales).  
 
 
 # 1. Problema de negócio
@@ -81,6 +81,7 @@ Para dar velocidade ao projeto e entregar valor para o negócio no menor tempo p
 
 # 5. Modelos de Machine Learning Aplicados
 
+
 - Average Model (baseline para comparação)
 - Linear Regression Model
 - Linear Regression Regularized Model (Lasso)
@@ -102,12 +103,13 @@ Após o ajuste dos hiperparâmetros
 |----------------|--------|--------|--------|
 XGBoost Regressor| 665.330873 | 0.097987 | 958.715745|
  
-# 7. Business Results
-# 8. Conclusions
+# 7. Resultados de Negócios
 
-# 9. Lessons Learned
+# 8. Conclusões
 
-# 10. Next Steps to Improve
+# 9. Lições Aprendidas
+
+# 10. Próximos passos para melhorar
 
 
 
